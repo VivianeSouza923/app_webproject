@@ -19,19 +19,19 @@ class _HomeState extends State<Home> {
             margin: EdgeInsets.all(10.0),
             height: 70.0,
             width: MediaQuery.of(context).size.width,
-            color: Colors.indigo,
+            color: Color(0xFFF4EFEC),
             // home, login, registration que fica dentro da barrinha roxa - inicio
             child: new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget> [
                 
-                //home
+                //Sobre
                 new Container(
                   padding: EdgeInsets.all(7.0),
                   margin: EdgeInsets.all(10.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.deepOrange
+                    color: Color(0xFFCAAA93)
                   ),
                   child: new Text("Home",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
@@ -39,15 +39,15 @@ class _HomeState extends State<Home> {
 
                 ),
 
-                //blog
+                //Formação
                 new Container(
                   padding: EdgeInsets.all(7.0),
                   margin: EdgeInsets.all(10.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.deepOrange
+                    color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("Blog",
+                  child: new Text("Formação",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -59,9 +59,9 @@ class _HomeState extends State<Home> {
                   margin: EdgeInsets.all(10.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.deepOrange
+                    color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("New Post",
+                  child: new Text("Experiência",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -73,9 +73,9 @@ class _HomeState extends State<Home> {
                   margin: EdgeInsets.all(10.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.deepOrange
+                    color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("Registration",
+                  child: new Text("Contato",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -87,9 +87,9 @@ class _HomeState extends State<Home> {
                   margin: EdgeInsets.all(10.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.deepOrange
+                    color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("Login",
+                  child: new Text("Voluntariado",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -98,7 +98,9 @@ class _HomeState extends State<Home> {
 
               ]),
           ),
-             
+
+
+          // ÍNICIO DAS BOX QUE VOU COLOCAR, onde vai ter aquelas fotos   
           new SizedBox(height: 7.0,),
 
           new Container(
@@ -117,11 +119,17 @@ class _HomeState extends State<Home> {
                       children: <Widget>[
 
                         new Container(
-                          height: 100.0,
-                          width: 100.0,
-                          child: new Image(
-                            image: AssetImage("vivi.jpg") 
+                          height: 150.0,
+                          width: 150.0,
+                          margin: EdgeInsets.all(10.0),
+                          decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(120.0),
+                            image: DecorationImage(
+                              image: AssetImage("vivi.jpg"),
+                              fit: BoxFit.cover,
                           ),
+                          ),
+                         
                         ),
 
                       ],
