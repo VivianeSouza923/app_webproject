@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("Contato",
+                  child: new Text("Voluntariado",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -89,7 +89,7 @@ class _HomeState extends State<Home> {
                     borderRadius: BorderRadius.circular(15.0),
                     color: Color(0xFFCAAA93)
                   ),
-                  child: new Text("Voluntariado",
+                  child: new Text("Contato",
                   style: TextStyle(fontSize: 20.0, color: Colors.white)
                   ),
 
@@ -131,14 +131,128 @@ class _HomeState extends State<Home> {
                           ),
                          
                         ),
+                        //caixinha 1
+                        new SizedBox(height: 10.0,),
+
+                        new Container(
+                          margin: EdgeInsets.all(10.0,),
+                          child: Text("Observação 1",
+                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          ),
+                        ),
+
+                        // caixinha 2
+                        new SizedBox(height: 5.0,),
+
+                        new Container(
+                          margin: EdgeInsets.only(left: 10.0),
+                          child: new Text("Observação 2",
+                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          ),
+                        ),
 
                       ],
                     ),
                   ),
                 ),
+
+
+                 new Expanded(
+                  flex: 1,
+                  child: new Container(
+                    height: 390.0,
+                    color: Colors.indigo,
+                    child: new Column(
+                      children: <Widget>[
+
+                        new Container(
+                          height: 150.0,
+                          width: 150.0,
+                          margin: EdgeInsets.all(10.0),
+                          decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(120.0),
+                            image: DecorationImage(
+                              image: AssetImage("formacao.jpg"),
+                              fit: BoxFit.cover,
+                          ),
+                          ),
+                         
+                        ),
+                        //caixinha 1
+                        new SizedBox(height: 10.0,),
+
+                        new Container(
+                          margin: EdgeInsets.all(10.0,),
+                          child: Text("Observação 1",
+                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          ),
+                        ),
+
+                        // caixinha 2
+                        new SizedBox(height: 5.0,),
+
+                        new Container(
+                          margin: EdgeInsets.only(left: 10.0),
+                          child: new Text("Observação 2",
+                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          ),
+                        ),
+
+                      ],
+                    ),
+                  ),
+                ),
+
+
               ],
             ),
-          )
+          ),
+
+           new Expanded(
+                  flex: 1,
+                  child: new Container(
+                    height: 390.0,
+                    color: Colors.indigo,
+                    child: new Column(
+                      children: <Widget>[
+
+                        new Container(
+                          height: 150.0,
+                          width: 150.0,
+                          margin: EdgeInsets.all(10.0),
+                          decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(120.0),
+                            image: DecorationImage(
+                              image: AssetImage("EXPERIENCIA.jpg"),
+                              fit: BoxFit.cover,
+                          ),
+                          ),
+                         
+                        ),
+                        //caixinha 1
+                        new SizedBox(height: 10.0,),
+
+                        new Container(
+                          margin: EdgeInsets.all(10.0,),
+                          child: Text("Observação 1",
+                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          ),
+                        ),
+
+                        // caixinha 2
+                        new SizedBox(height: 5.0,),
+
+                        new Container(
+                          margin: EdgeInsets.only(left: 10.0),
+                          child: new Text("Observação 2",
+                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          ),
+                        ),
+
+                      ],
+                    ),
+                  ),
+                ),
         ],
       ),
     );
