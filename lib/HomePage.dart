@@ -114,7 +114,7 @@ class _HomeState extends State<Home> {
                   flex: 1,
                   child: new Container(
                     height: 390.0,
-                    color: Colors.indigo,
+                    color:Color(0xFFF0D9D1),
                     child: new Column(
                       children: <Widget>[
 
@@ -137,7 +137,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.all(10.0,),
                           child: Text("Observação 1",
-                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          style: TextStyle(color: Colors.white, fontSize: 20.0),  
                           ),
                         ),
 
@@ -147,7 +147,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.only(left: 10.0),
                           child: new Text("Observação 2",
-                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
 
@@ -156,12 +156,13 @@ class _HomeState extends State<Home> {
                   ),
                 ),
 
+                 new SizedBox(width: 10.0,),
 
                  new Expanded(
                   flex: 1,
                   child: new Container(
                     height: 390.0,
-                    color: Colors.indigo,
+                    color:  Color(0xFFF0D9D1),
                     child: new Column(
                       children: <Widget>[
 
@@ -184,7 +185,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.all(10.0,),
                           child: Text("Observação 1",
-                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          style: TextStyle(color: Colors.white, fontSize: 20.0),  
                           ),
                         ),
 
@@ -194,7 +195,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.only(left: 10.0),
                           child: new Text("Observação 2",
-                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
 
@@ -212,7 +213,7 @@ class _HomeState extends State<Home> {
                   flex: 1,
                   child: new Container(
                     height: 390.0,
-                    color: Colors.indigo,
+                    color: Color(0xFFF0D9D1),
                     child: new Column(
                       children: <Widget>[
 
@@ -235,7 +236,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.all(10.0,),
                           child: Text("Observação 1",
-                          style: TextStyle(color: Color(0xFFF0D9D1), fontSize: 20.0),  
+                          style: TextStyle(color: Colors.white, fontSize: 20.0),  
                           ),
                         ),
 
@@ -245,7 +246,7 @@ class _HomeState extends State<Home> {
                         new Container(
                           margin: EdgeInsets.only(left: 10.0),
                           child: new Text("Observação 2",
-                          style: TextStyle(fontSize: 16.0, color: Color(0xFFF0D9D1)),
+                          style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
 
@@ -253,10 +254,56 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                 ),
+      
+
+
+           new SizedBox(height: 10.0,),
+
+           new Container(
+            margin: EdgeInsets.all(10.0),
+            height: 400,
+            width: MediaQuery.of(context).size.width,
+            child: new Column(
+              children: <Widget>[
+
+                new Container(
+                  height: 50.0,
+                  padding: EdgeInsets.all(7.0),
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.circular(15.0),
+                    color: Colors.brown,
+                  ),
+                  child: new Text("observação", style: TextStyle(fontSize: 18.0, color: Colors.white),
+                  
+                  ),
+
+                ),
+
+                new SizedBox(height: 10.0,),
+
+                new Container(
+                  margin: EdgeInsets.all(10.0),
+                  height: 350.0,
+                  child: new ListView(
+                    children: <Widget>[
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Colors.green,
+
+                      ),                        
+                    ],
+                  ),
+                  
+                ),
+
+              ],
+            ),
+           ),
+
         ],
       ),
     );
   }
 }
 
-// final barrinha roxa láaaaa de cima, abaixo da barra de endereço.
