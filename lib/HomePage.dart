@@ -271,7 +271,7 @@ class _HomeState extends State<Home> {
                   padding: EdgeInsets.all(7.0),
                   decoration: new BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
-                    color: Colors.brown,
+                    color: Color(0xFFF0D9D1),
                   ),
                   child: new Text("observação", style: TextStyle(fontSize: 18.0, color: Colors.white),
                   
@@ -284,14 +284,229 @@ class _HomeState extends State<Home> {
                 new Container(
                   margin: EdgeInsets.all(10.0),
                   height: 350.0,
+                  width: 1250.0,
                   child: new ListView(
+                  scrollDirection: Axis.horizontal,
                     children: <Widget>[
+
+
                       new Container(
                         height: 350.0,
                         width: 250.0,
-                        color: Colors.green,
+                        color: Color(0xFFF0D9D1),
+                        child: new Column(
+                          children: <Widget>[
 
-                      ),                        
+                            new Container(
+                              height: 150.0,
+                              width: 150.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(70.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("vivi.jpg"),
+                                  fit: BoxFit.cover
+                                  )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação",
+                              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                             new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação pequena",
+                              style: TextStyle(color: Colors.white, fontSize: 15.0),
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+                      ),              
+                      // retângulo 2
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Color(0xFFF0D9D1),
+                        child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                              height: 150.0,
+                              width: 150.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(70.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("vivi.jpg"),
+                                  fit: BoxFit.cover
+                                  )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação",
+                              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                             new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação pequena",
+                              style: TextStyle(color: Colors.white, fontSize: 15.0),
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+                      ),
+
+
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Color(0xFFF0D9D1),
+                        child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                              height: 150.0,
+                              width: 150.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(70.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("vivi.jpg"),
+                                  fit: BoxFit.cover
+                                  )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação",
+                              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                             new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação pequena",
+                              style: TextStyle(color: Colors.white, fontSize: 15.0),
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+                      ),
+
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Color(0xFFF0D9D1),
+                        child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                              height: 150.0,
+                              width: 150.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(70.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("vivi.jpg"),
+                                  fit: BoxFit.cover
+                                  )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação",
+                              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                             new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação pequena",
+                              style: TextStyle(color: Colors.white, fontSize: 15.0),
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+                      ),
+
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Color(0xFFF0D9D1),
+                        child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                              height: 150.0,
+                              width: 150.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(70.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("vivi.jpg"),
+                                  fit: BoxFit.cover
+                                  )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação",
+                              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                             new SizedBox(height: 6.0,),
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Observação pequena",
+                              style: TextStyle(color: Colors.white, fontSize: 15.0),
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+                      ),
+
+
+
+                                
                     ],
                   ),
                   
