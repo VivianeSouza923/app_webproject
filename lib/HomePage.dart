@@ -96,7 +96,8 @@ class _HomeState extends State<Home> {
                 ),
 
 
-              ]),
+              ],
+              ),
           ),
 
 
@@ -261,7 +262,7 @@ class _HomeState extends State<Home> {
 
            new Container(
             margin: EdgeInsets.all(10.0),
-            height: 400,
+            height: 50.0,
             width: MediaQuery.of(context).size.width,
             child: new Column(
               children: <Widget>[
@@ -278,11 +279,18 @@ class _HomeState extends State<Home> {
                   ),
 
                 ),
+                                
+                    ],
+                    
+                  ),
+
+                  
+                ),
 
                 new SizedBox(height: 10.0,),
 
                 new Container(
-                  margin: EdgeInsets.all(10.0),
+                  margin: EdgeInsets.all(130),
                   height: 350.0,
                   width: 1250.0,
                   child: new ListView(
@@ -378,6 +386,7 @@ class _HomeState extends State<Home> {
                       new SizedBox(width: 10.0,),
 
                       new Container(
+
                         height: 350.0,
                         width: 250.0,
                         color: Color(0xFFF0D9D1),
@@ -504,15 +513,39 @@ class _HomeState extends State<Home> {
 
                       ),
 
+                new SizedBox(height: 10.0,),
+
+                new Container(
+                  margin: EdgeInsets.all(10.0),
+                  height: 600.0,
+                  width: MediaQuery.of(context).size.width,
+                  child: new Column(
+                    children: <Widget>[
+
+                      new Container(
+                      margin: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(10.0),
+                      decoration: new BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: Color(0xFFF0D9D1)
+                      ),
+                      child: new Text("Obs",
+                      style: TextStyle(
+                        fontSize: 18.0,
+                        color: Colors.white 
+                        ),
+                        ),
+
+                      ),
 
 
-                                
                     ],
                   ),
-                  
                 ),
 
               ],
+
+              
             ),
            ),
 
