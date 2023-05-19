@@ -290,7 +290,7 @@ class _HomeState extends State<Home> {
                 new SizedBox(height: 10.0,),
 
                 new Container(
-                  margin: EdgeInsets.all(130),
+                  margin: EdgeInsets.all(10.0),
                   height: 350.0,
                   width: 1250.0,
                   child: new ListView(
@@ -513,13 +513,14 @@ class _HomeState extends State<Home> {
 
                       ),
 
-                new SizedBox(height: 10.0,),
+                new SizedBox(height: 20.0,),
 
                 new Container(
-                  margin: EdgeInsets.all(10.0),
+                  margin: EdgeInsets.all(150.0),
                   height: 600.0,
                   width: MediaQuery.of(context).size.width,
                   child: new Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
 
                       new Container(
@@ -536,6 +537,36 @@ class _HomeState extends State<Home> {
                         ),
                         ),
 
+                      ),
+
+
+                      new SizedBox(height: 7.0,),
+
+
+                      new Container(
+                        margin: EdgeInsets.all(10.0),
+                        height: 800.0,
+                        child: new ListView(
+
+                          children: <Widget>[
+
+                            new Container(
+                              height: 200.0,
+                              child: new Row(
+                                children: <Widget>[
+
+                                  new Expanded(
+                                    flex: 2,
+                                    child: new Image(
+                                      image: AssetImage("vivi.jpg"),
+                                      fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
 
 
