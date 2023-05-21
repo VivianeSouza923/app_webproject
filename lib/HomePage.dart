@@ -513,11 +513,11 @@ class _HomeState extends State<Home> {
 
                       ),
 
-                new SizedBox(height: 20.0,),
+                new SizedBox(height: 5.0,),
 
                 new Container(
-                  margin: EdgeInsets.all(150.0),
-                  height: 600.0,
+                  margin: EdgeInsets.all(10.0),
+                  height: 1200.0,
                   width: MediaQuery.of(context).size.width,
                   child: new Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -550,21 +550,48 @@ class _HomeState extends State<Home> {
 
                           children: <Widget>[
 
+                          new Card(
+                            elevation: 10.0,
                             new Container(
                               height: 200.0,
                               child: new Row(
                                 children: <Widget>[
 
                                   new Expanded(
-                                    flex: 2,
+                                    flex: 1,
                                     child: new Image(
                                       image: AssetImage("vivi.jpg"),
                                       fit: BoxFit.cover,
                                       ),
                                     ),
+
+                                  new SizedBox(width: 10.0,),
+
+                                  new Expanded(
+                                    flex: 3,
+                                    child: new Container(
+                                      child: new Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: <Widget>[
+
+                                          new Text("Vivi",
+                                          style: TextStyle(color: Colors.black, fontSize: 20.0)
+                                          ),
+                                          new SizedBox(height: 10.0,),
+
+                                          new Text("Thorin",
+                                          style: TextStyle(color: Colors.purple, fontSize: 14.0)
+                                          ),
+
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
                                 ],
                               ),
                             ),
+                        ),
                           ],
                         ),
                       ),
