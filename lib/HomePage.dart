@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
 
 
         
-// CONTINUAR AQUUUUUUUUUUUUUUI
+/* INÍCIO DOS 3 QUADRADOOOOOOS */
 
         new SizedBox(height: 7.0,),
 
@@ -107,11 +107,12 @@ class _HomeState extends State<Home> {
           child: new Row(
             children: <Widget>[
 
+              /* PRIMEIRO QUADRADO */  
               new Expanded(
                 flex: 1,
                 child: new Container(
                   height: 390.0,
-                  color: Colors.indigo,
+                  color: Color(0xFFDAC0A7),
                   child: new Column(
                        crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -121,9 +122,9 @@ class _HomeState extends State<Home> {
                        width: 150.0,
                        margin: EdgeInsets.all(10.0),
                         decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(25.0),
+                          borderRadius: new BorderRadius.circular(90.0),
                           image: DecorationImage(
-                            image: AssetImage("e.jpg"),
+                            image: AssetImage("vivi.jpg"),
                             fit: BoxFit.cover,
                         
                             ),
@@ -134,7 +135,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.all(10.0),
-                        child: Text("Loren Imsum Dolar",
+                        child: Text("Sobre",
                         style: TextStyle(color: Colors.white,fontSize: 20.0),
                         ),
                       ),
@@ -143,7 +144,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
-                        child: new Text("It is a long stailshed fact",
+                        child: new Text("   Me chamo Viviane, mas pode me chamar de Vivi. Sou encantada com a tecnologia. Ela está presente na minha vida desde 2010 quando ingressei no meu amado IFCE, aos 14 aninhos ❤️. Desde então, não parei mais de estudar sobre redes, programação, IA etc. Tenho 26 anos, amo doramas desde os 15 anos, amo assistir jogos, amo desafios e amo ainda mais a pessoa que me inspira todos os dias: Jesus.",
                         style: TextStyle(fontSize: 16.0,color: Colors.white),
                         ),
                       )
@@ -153,6 +154,9 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
+              /* FIM do primeiro quadrado*/
+
+              /* SEGUNDO QUADRADO*/
 
               new SizedBox(width: 10.0,),
 
@@ -160,7 +164,7 @@ class _HomeState extends State<Home> {
                 flex: 1,
                 child: new Container(
                   height: 390.0,
-                  color: Colors.purple,
+                  color: Color(0xFFF0D9D1),
                   child: new Column(
                        crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -170,9 +174,9 @@ class _HomeState extends State<Home> {
                        width: 150.0,
                        margin: EdgeInsets.all(10.0),
                         decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(25.0),
+                          borderRadius: new BorderRadius.circular(90.0),
                           image: DecorationImage(
-                            image: AssetImage("g.jpg"),
+                            image: AssetImage("formacao.jpg"),
                             fit: BoxFit.cover,
                         
                             ),
@@ -183,7 +187,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.all(10.0),
-                        child: Text("Loren Imsum Dolar",
+                        child: Text("Formacao",
                         style: TextStyle(color: Colors.white,fontSize: 20.0),
                         ),
                       ),
@@ -192,7 +196,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
-                        child: new Text("It is a long stailshed fact",
+                        child: new Text("Tecnica em Telecomunicações - Instituto Federal de Educação, Ciência e Tecnologia do Ceará, IFCE (2010 - 2014); \n\n Graduanda em Engenharia de Telecomunicações - Instituto Federal de Educação, Ciência e Tecnologia do Ceará, IFCE (2019 - 2026).",
                         style: TextStyle(fontSize: 16.0,color: Colors.white),
                         ),
                       )
@@ -202,13 +206,17 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
+
+              /* FIM do segundo quadrado*/
+
+              /*INÍCIO DO TERCEIRO QUADRADO*/
                new SizedBox(width: 10.0,),
 
               new Expanded(
                 flex: 1,
                 child: new Container(
                   height: 390.0,
-                  color: Colors.brown,
+                  color: Color(0xFFCAAA93),
                   child: new Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -218,9 +226,9 @@ class _HomeState extends State<Home> {
                        width: 150.0,
                        margin: EdgeInsets.all(10.0),
                         decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(25.0),
+                          borderRadius: new BorderRadius.circular(90.0),
                           image: DecorationImage(
-                            image: AssetImage("h.jpg"),
+                            image: AssetImage("EXPERIENCIA.jpg"),
                             fit: BoxFit.cover,
                         
                             ),
@@ -231,7 +239,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.all(10.0),
-                        child: Text("Loren Imsum Dolar",
+                        child: Text("Experiência",
                         style: TextStyle(color: Colors.white,fontSize: 20.0),
                         ),
                       ),
@@ -240,7 +248,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
-                        child: new Text("It is a long stailshed fact",
+                        child: new Text("VOU COLOCAR AINDA",
                         style: TextStyle(fontSize: 16.0,color: Colors.white),
                         ),
                       )
