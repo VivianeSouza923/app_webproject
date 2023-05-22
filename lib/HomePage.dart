@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
 
         new Container(
           margin: EdgeInsets.all(10.0),
-          height: 400.0,
+          height: 500.0,
           width: MediaQuery.of(context).size.width,
           child: new Row(
             children: <Widget>[
@@ -136,7 +136,7 @@ class _HomeState extends State<Home> {
                       new Container(
                         margin: EdgeInsets.all(10.0),
                         child: Text("Sobre",
-                        style: TextStyle(color: Colors.white,fontSize: 20.0),
+                        style: TextStyle(color: Colors.black,fontSize: 20.0),
                         ),
                       ),
 
@@ -145,7 +145,7 @@ class _HomeState extends State<Home> {
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
                         child: new Text("   Me chamo Viviane, mas pode me chamar de Vivi. Sou encantada com a tecnologia. Ela está presente na minha vida desde 2010 quando ingressei no meu amado IFCE, aos 14 aninhos ❤️. Desde então, não parei mais de estudar sobre redes, programação, IA etc. Tenho 26 anos, amo doramas desde os 15 anos, amo assistir jogos, amo desafios e amo ainda mais a pessoa que me inspira todos os dias: Jesus.",
-                        style: TextStyle(fontSize: 16.0,color: Colors.white),
+                        style: TextStyle(fontSize: 16.0,color: Colors.black),
                         ),
                       )
 
@@ -164,7 +164,7 @@ class _HomeState extends State<Home> {
                 flex: 1,
                 child: new Container(
                   height: 390.0,
-                  color: Color(0xFFF0D9D1),
+                  color: Color(0xFFDAC0A7),
                   child: new Column(
                        crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -188,7 +188,7 @@ class _HomeState extends State<Home> {
                       new Container(
                         margin: EdgeInsets.all(10.0),
                         child: Text("Formacao",
-                        style: TextStyle(color: Colors.white,fontSize: 20.0),
+                        style: TextStyle(color: Colors.black,fontSize: 20.0),
                         ),
                       ),
 
@@ -197,7 +197,7 @@ class _HomeState extends State<Home> {
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
                         child: new Text("Tecnica em Telecomunicações - Instituto Federal de Educação, Ciência e Tecnologia do Ceará, IFCE (2010 - 2014); \n\n Graduanda em Engenharia de Telecomunicações - Instituto Federal de Educação, Ciência e Tecnologia do Ceará, IFCE (2019 - 2026).",
-                        style: TextStyle(fontSize: 16.0,color: Colors.white),
+                        style: TextStyle(fontSize: 16.0,color: Colors.black),
                         ),
                       )
 
@@ -210,13 +210,67 @@ class _HomeState extends State<Home> {
               /* FIM do segundo quadrado*/
 
               /*INÍCIO DO TERCEIRO QUADRADO*/
-               new SizedBox(width: 10.0,),
+              new SizedBox(width: 10.0,),
 
               new Expanded(
                 flex: 1,
                 child: new Container(
                   height: 390.0,
-                  color: Color(0xFFCAAA93),
+                  color: Color(0xFFDAC0A7),
+                  child: new Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+
+                      new Container(
+                       height: 150.0,
+                       width: 150.0,
+                       margin: EdgeInsets.all(10.0),
+                        decoration: new BoxDecoration(
+                          borderRadius: new BorderRadius.circular(90.0),
+                          image: DecorationImage(
+                            image: AssetImage("VOLUN.jpg"),
+                            fit: BoxFit.cover,
+                        
+                            ),
+                        ),
+                     
+                      ),
+
+                      new SizedBox(height: 10.0,),
+
+                      new Container(
+                        margin: EdgeInsets.all(10.0),
+                        child: Text("Voluntariado",
+                        style: TextStyle(color: Colors.black,fontSize: 20.0),
+                        ),
+                      ),
+
+                      new SizedBox(height: 5.0,),
+
+                      new Container(
+                        margin: EdgeInsets.only(left:10.0),
+                        child: new Text("Participo do Programa de Mentoria da comunidade PyLadyes Fortaleza. Me voluntariei para ensinar dados, ciência de dados para as meninas que desejam se aprofundar no assunto.",
+                        style: TextStyle(fontSize: 16.0,color: Colors.black),
+                        ),
+                      )
+
+
+                    ],
+                  ),
+                ),
+              ), 
+              /* fim do terceiro quadradoooooo*/
+
+
+
+              /* INÍCIO DO QUARTO QUADRADO*/  
+              new SizedBox(width: 10.0,),
+
+              new Expanded(
+                flex: 1,
+                child: new Container(
+                  height: 490.0,
+                  color: Color(0xFFDAC0A7),
                   child: new Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -235,12 +289,13 @@ class _HomeState extends State<Home> {
                         ),
                      
                       ),
+
                       new SizedBox(height: 10.0,),
 
                       new Container(
                         margin: EdgeInsets.all(10.0),
                         child: Text("Experiência",
-                        style: TextStyle(color: Colors.white,fontSize: 20.0),
+                        style: TextStyle(color: Colors.black,fontSize: 20.0),
                         ),
                       ),
 
@@ -248,8 +303,8 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
-                        child: new Text("VOU COLOCAR AINDA",
-                        style: TextStyle(fontSize: 16.0,color: Colors.white),
+                        child: new Text("Monitor de laboratório de informática (2012 a 2014) - IFCE; \n * Professora particular (matemática, física, química e português, esporadicamente); \n* Pesquisadora e Desenvolvedora (2020 a 2021) - LAPISCO; \n* Analista de Suporte Computacional (2021 - O momento) - MobWire; \n* AI Developer (mar/23 - O momento) - Huawei ICT Academy - IFCE; \n* Software Development Intern (mai/23 - O momento) - Laboratório de Pesquisa Aplicada Ao Desenvolvimento em Automação - LAPADA.",
+                        style: TextStyle(fontSize: 16.0,color: Colors.black),
                         ),
                       )
 
@@ -257,747 +312,96 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                 ),
-              ),
-
-
-
+              ), 
+              /* fim do quarto quadrado*/
             ],
           ),
-        ),
+        ), /* FIIIM DOS 4 QUADRADOOOOOOS*/
 
-        new SizedBox(height: 10.0,),
-        new Container(
-          margin: EdgeInsets.all(10.0),
-          height: 500,
-          width: MediaQuery.of(context).size.width,
-          child: new Column(
-            children: <Widget>[
 
-              new Container(
-                height: 50.0,
-                padding: EdgeInsets.all(7.0),
-                decoration: new BoxDecoration(
-                  borderRadius: BorderRadius.circular(15.0),
-                  color: Colors.brown
-                ),
-                child: new Text("Our Team",style: TextStyle(fontSize: 18.0,color: Colors.white),
-                
-                ),
-              ),
-
-              new SizedBox(height: 10.0,),
-
-              new Container(
-                margin: EdgeInsets.all(10.0),
-                height: 350.0,
-                width: 1250.0,
-                child: new ListView(
-               scrollDirection: Axis.horizontal,
-                  children: <Widget>[
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.black,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ff.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-                    new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.brown,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ee.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-                      new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.green,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("pr.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.indigo,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ee.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.red,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("pr.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.deepOrange,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ff.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.indigo,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("pr.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.orange,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ee.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.green,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("pr.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.brown,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("ff.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-  new SizedBox(width: 10.0,),
-
-                    new Container(
-                      height: 350.0,
-                      width: 250.0,
-                      color: Colors.brown,
-                      child: new Column(
-                        children: <Widget>[
-
-                          new Container(
-                            height: 150.0,
-                            width: 150.0,
-                            margin: EdgeInsets.all(10.0),
-                            decoration: new BoxDecoration(
-                              borderRadius: BorderRadius.circular(15.0),
-                              image: new DecorationImage(
-                                image: AssetImage("h.jpg"),
-                                fit: BoxFit.cover
-                              )
-                            ),
-                          ),
-
-                          new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("Loren Ipsum Dolar",
-                            style: TextStyle(color: Colors.white,fontSize: 20.0), ),
-                          ),
-
-                           new SizedBox(height: 6.0,),
-                          new Container(
-                            margin: EdgeInsets.all(4.0),
-                            child: new Text("It is a long Establish fact",
-                            style: TextStyle(color: Colors.white,fontSize: 15.0), ),
-                          ),
-                          
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-                  ],
-                ),
-            
-              )
-
-
-            ],
-          ),
-        ),
 
         new SizedBox(height:5.0),
 
         new Container(
           margin: EdgeInsets.all(10.0),
-          height: 900.0,
+          height: 400.0,
           width: MediaQuery.of(context).size.width,
           child: new Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
 
+
+             
+
               new Container(
+                height: 350.0,
+                width: 350.0,
                 margin: EdgeInsets.all(10.0),
                 padding: EdgeInsets.all(10.0),
                 decoration: new BoxDecoration(
                   borderRadius: BorderRadius.circular(15.0),
-                  color: Colors.deepPurple
+                  color: Color(0xFFF0D9D1),       
                 ),
-                child: new Text("Latest Post",
+
+                
+
+                
+                child: new Text("LinkedIn",
                 style: TextStyle(
                   fontSize: 18.0,
-                  color: Colors.white
+                  color: Colors.black, 
+                  
+                ), textAlign: TextAlign.center,
                 ),
-                ),
+
+                
               ),
 
-              new SizedBox(height: 7.0,),
+             
+
+            ],
+          ),
+        ),
+
+
+         new SizedBox(height:5.0),
+
+        new Container(
+          margin: EdgeInsets.all(10.0),
+          height: 400.0,
+          width: MediaQuery.of(context).size.width,
+          child: new Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+
+
+             
 
               new Container(
+                height: 350.0,
+                width: 350.0,
                 margin: EdgeInsets.all(10.0),
-                height: 800.0,
-                child: new ListView(
-                  children: <Widget>[
-                    ///this container is for item data
-                    new Card(
-                      elevation: 10.0,
-                      child: new Container(
-                        height: 200.0,
-                        child: new Row(
-                          children: <Widget>[
-
-                            new Expanded(
-                              flex: 1,
-                              child: new Image(
-                                image: AssetImage("g.jpg"),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                            new SizedBox(width: 10.0,),
-                            new Expanded(
-                              flex: 3,
-                              child: new Container(
-                                child: new Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-
-                                    new Text("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', ",
-                                    style: TextStyle(color: Colors.black,fontSize: 20.0),
-                                    ),
-                                    new SizedBox(height: 10.0,),
-
-                                    new Text("May 23,2019",
-                                    style: TextStyle(
-                                      fontSize: 14.0,
-                                      color: Colors.purple
-                                    ),
-                                    ),
-
-                                    new SizedBox(height: 11.0,),
-
-                                    new Container(
-                                      padding: EdgeInsets.all(9.0),
-                                      decoration: new BoxDecoration(
-                                        borderRadius: new BorderRadius.circular(15.0),
-                                        color: Colors.deepPurple
-                                      ),
-                                      child: new Text("Read More",
-                                      style: TextStyle(fontSize: 16.0,
-                                      color: Colors.white
-                                      ),
-                                      ),
-                                    )
-
-                                  ],
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                    ),   
-
-                    /// endthis container is for item data
-        new SizedBox(height: 10.0,),
-
-        //second post
-
-           ///this container is for item data
-                    new Card(
-                      elevation: 10.0,
-                      child: new Container(
-                        height: 200.0,
-                        child: new Row(
-                          children: <Widget>[
-
-                            new Expanded(
-                              flex: 1,
-                              child: new Image(
-                                image: AssetImage("h.jpg"),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                            new SizedBox(width: 10.0,),
-                            new Expanded(
-                              flex: 3,
-                              child: new Container(
-                                child: new Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-
-                                    new Text("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', ",
-                                    style: TextStyle(color: Colors.black,fontSize: 20.0),
-                                    ),
-                                    new SizedBox(height: 10.0,),
-
-                                    new Text("May 23,2019",
-                                    style: TextStyle(
-                                      fontSize: 14.0,
-                                      color: Colors.purple
-                                    ),
-                                    ),
-
-                                    new SizedBox(height: 11.0,),
-
-                                    new Container(
-                                      padding: EdgeInsets.all(9.0),
-                                      decoration: new BoxDecoration(
-                                        borderRadius: new BorderRadius.circular(15.0),
-                                        color: Colors.deepPurple
-                                      ),
-                                      child: new Text("Read More",
-                                      style: TextStyle(fontSize: 16.0,
-                                      color: Colors.white
-                                      ),
-                                      ),
-                                    )
-
-                                  ],
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                    ),   
-
-                    new SizedBox(height: 10.0,),
-
-                       ///this container is for item data
-                    new Card(
-                      elevation: 10.0,
-                      child: new Container(
-                        height: 200.0,
-                        child: new Row(
-                          children: <Widget>[
-
-                            new Expanded(
-                              flex: 1,
-                              child: new Image(
-                                image: AssetImage("e.jpg"),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                            new SizedBox(width: 10.0,),
-                            new Expanded(
-                              flex: 3,
-                              child: new Container(
-                                child: new Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-
-                                    new Text("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', ",
-                                    style: TextStyle(color: Colors.black,fontSize: 20.0),
-                                    ),
-                                    new SizedBox(height: 10.0,),
-
-                                    new Text("May 23,2019",
-                                    style: TextStyle(
-                                      fontSize: 14.0,
-                                      color: Colors.purple
-                                    ),
-                                    ),
-
-                                    new SizedBox(height: 11.0,),
-
-                                    new Container(
-                                      padding: EdgeInsets.all(9.0),
-                                      decoration: new BoxDecoration(
-                                        borderRadius: new BorderRadius.circular(15.0),
-                                        color: Colors.deepPurple
-                                      ),
-                                      child: new Text("Read More",
-                                      style: TextStyle(fontSize: 16.0,
-                                      color: Colors.white
-                                      ),
-                                      ),
-                                    )
-
-                                  ],
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                    ),   
-//end of item
-                  ],
+                padding: EdgeInsets.all(10.0),
+                decoration: new BoxDecoration(
+                  borderRadius: BorderRadius.circular(15.0),
+                  color: Color(0xFFF0D9D1),       
                 ),
+
+                
+
+                
+                child: new Text("Github",
+                style: TextStyle(
+                  fontSize: 18.0,
+                  color: Colors.black, 
+                  
+                ), textAlign: TextAlign.center,
+                ),
+
+                
               ),
+
+             
 
             ],
           ),
