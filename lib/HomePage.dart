@@ -303,7 +303,7 @@ class _HomeState extends State<Home> {
 
                       new Container(
                         margin: EdgeInsets.only(left:10.0),
-                        child: new Text("Monitor de laboratório de informática (2012 a 2014) - IFCE; \n * Professora particular (matemática, física, química e português, esporadicamente); \n* Pesquisadora e Desenvolvedora (2020 a 2021) - LAPISCO; \n* Analista de Suporte Computacional (2021 - O momento) - MobWire; \n* AI Developer (mar/23 - O momento) - Huawei ICT Academy - IFCE; \n* Software Development Intern (mai/23 - O momento) - Laboratório de Pesquisa Aplicada Ao Desenvolvimento em Automação - LAPADA.",
+                        child: new Text(" * Monitor de laboratório de informática (2012 a 2014) - IFCE; \n * Professora particular (matemática, física, química e português, esporadicamente); \n* Pesquisadora e Desenvolvedora (2020 a 2021) - LAPISCO; \n* Analista de Suporte Computacional (2021 - O momento) - MobWire; \n* AI Developer (mar/23 - O momento) - Huawei ICT Academy - IFCE; \n* Software Development Intern (mai/23 - O momento) - Laboratório de Pesquisa Aplicada Ao Desenvolvimento em Automação - LAPADA.",
                         style: TextStyle(fontSize: 16.0,color: Colors.black),
                         ),
                       )
@@ -319,7 +319,7 @@ class _HomeState extends State<Home> {
         ), /* FIIIM DOS 4 QUADRADOOOOOOS*/
 
 
-
+        
         new SizedBox(height:5.0),
 
         new Container(
@@ -327,7 +327,7 @@ class _HomeState extends State<Home> {
           height: 400.0,
           width: MediaQuery.of(context).size.width,
           child: new Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
 
 
@@ -357,6 +357,10 @@ class _HomeState extends State<Home> {
                 
               ),
 
+              
+
+              
+
              
 
             ],
@@ -371,7 +375,7 @@ class _HomeState extends State<Home> {
           height: 400.0,
           width: MediaQuery.of(context).size.width,
           child: new Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
 
 
@@ -412,7 +416,7 @@ class _HomeState extends State<Home> {
         new Container(
           height: 400.0,
           margin: EdgeInsets.all(10.0),
-          color: Colors.black,
+          color: Color(0xFFCAAA93),
           child: new Row(
             children: <Widget>[
 
@@ -425,29 +429,29 @@ class _HomeState extends State<Home> {
 
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Social Media ",
+                        child: new Text("Linkedin",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
 
                         Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Facebook ",
+                        child: new Text("Github",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
                           Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Instagram ",
+                        child: new Text("Kaggle",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
@@ -470,29 +474,29 @@ class _HomeState extends State<Home> {
 
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Social Media ",
+                        child: new Text("Linkedin",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
 
                         Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Facebook ",
+                        child: new Text("Github",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
                           Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Instagram ",
+                        child: new Text("Kaggle",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
@@ -516,29 +520,29 @@ class _HomeState extends State<Home> {
 
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Social Media ",
+                        child: new Text("Linkedin",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
 
                         Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Facebook ",
+                        child: new Text("Github",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
                           Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: new Text("Instagram ",
+                        child: new Text("Kaggle",
                         style: TextStyle(
                           fontSize: 20.0,
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
